@@ -1,0 +1,67 @@
+{
+  "run_id": "2026-11-25-pilot",
+  "date": "2026-11-25",
+  "status": "completed",
+  "harness": "ChatGPT collaboration subagents",
+  "model": "parent-inherited; exact API model id not exposed by spawn tool",
+  "fork_turns": "none",
+  "model_override": null,
+  "reasoning_effort_override": null,
+  "generation_design": "one fresh subagent per condition; 12 independent transcripts in one batch per condition",
+  "repetitions_per_case_condition": 1,
+  "case_count": 12,
+  "conditions": [
+    "baseline",
+    "concise",
+    "sasshite"
+  ],
+  "case_source": "synthetic, created by independent design agent; evaluator requirements withheld from generators",
+  "generator_access": "only assigned packet; no rubric, other answers, research, prior chat, or full repo",
+  "skill_sha256": "d38722f54a99bb3b4b6f9d663f97fd9f6a66598b7a095a3eee97fe4dcd05a65c",
+  "cases_sha256": "a4cb6dc52819282598c4cf1651fa933438801da7ab314bdded45374c3c3286a7",
+  "rubric_sha256": "bea9714ba7b86540b4beca4cc740c5398de6b08a76755ab7077d54c27abcc874",
+  "latency_and_usage": "not measured per case",
+  "human_cognitive_load": "not measured",
+  "activation": "explicit condition injection; implicit invocation not tested",
+  "known_limits": [
+    "shared host instructions across all conditions",
+    "within-batch context is not independent per case",
+    "no sampling parameters or exact model ID from tool",
+    "one draw per condition and case",
+    "model judges are not human subjects"
+  ],
+  "design_review": {
+    "reviewer_context": "fresh subagent, user brief and skill/docs only; no eval data",
+    "result": "No blocking findings."
+  },
+  "generation_count": 36,
+  "blind_judge_runs": 2,
+  "judgment_count": 72,
+  "judging": "fresh parent-inherited subagents; fork_turns none; per-case candidate permutation; only assigned blinded packet",
+  "judge_seeds": [
+    20261126,
+    20261127
+  ],
+  "outcome": "All 36 responses acceptable and tied in both model judgments; no comparative advantage established.",
+  "artifact_sha256": {
+    "blind-1/packet.json": "9823472296b321c4895b9f1a94fc1b28e666dfa3a59b129b996154df73d9a36c",
+    "blind-1/private_key.json": "a3503526c18349bae354e037e6f8e2ba7d8405c50638ed18545c54084c19aa14",
+    "blind-2/packet.json": "ef998ddc0c09e3fb753463459eb63865cb761323ca380df510f602d93c89d536",
+    "blind-2/private_key.json": "c1ff00708c4f6dc6fcd97341ffff82b4ffb9416c6e5b3570e8bd3d070d725beb",
+    "conditions/baseline.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "conditions/concise.txt": "64170ea90f27ed9e3dffbca80a78fea92bdc7a7500d4d24bd27cfd999881d269",
+    "conditions/sasshite.txt": "d38722f54a99bb3b4b6f9d663f97fd9f6a66598b7a095a3eee97fe4dcd05a65c",
+    "contract_checks.json": "2d9a2cf1e97c5d9009b746da25f6c5632d0a789b279f155394a7f4ebd61d2da9",
+    "judgments-1.json": "15e44ce0b06a767fd90e35bbaa212d2619dc6e50230a32d4c35868b236c38b6e",
+    "judgments-2.json": "15e44ce0b06a767fd90e35bbaa212d2619dc6e50230a32d4c35868b236c38b6e",
+    "packets/baseline.md": "c8b04e27d64a8cdc592e5bace1d6adee13362deb2e892d08406705f83aece27a",
+    "packets/concise.md": "3c5cafa4dcc9816a98c8e45a3acea6da67c22f79a5f95fea2ecde77ea8024238",
+    "packets/manifest.json": "09fbda9226e8ba83fd9f926676115d38670850415cb38422d0922bf1b63414c0",
+    "packets/sasshite.md": "e673d0fd2ae742cb6df9df014d0510bac31aaaa0a43070ed3e98f22fd3627b2a",
+    "responses/baseline.jsonl": "4ee52d5fd9dc4092e359b174f8f5943dab7d7fad23a2a873b141ce0aff828b4f",
+    "responses/concise.jsonl": "c536a70c321fc8ee21e605f559fac1bb0c898c94cfffa4e25fa43494ede9ff20",
+    "responses/sasshite.jsonl": "e3c107db8374a0c7ad9bd7af85d730c7b5b3c17049370a9156304cabfcaa6119",
+    "summary-1.json": "052f31af941a28c916e73c574f0dc62bb761a3fa493d308c6d653beb36e47047",
+    "summary-2.json": "052f31af941a28c916e73c574f0dc62bb761a3fa493d308c6d653beb36e47047"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "cases": [
+    {
+      "id": "C01",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C02",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C03",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C04",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C05",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C06",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C07",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C08",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C09",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C10",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C11",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "C12",
+      "candidates": [
+        {
+          "label": "X",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Y",
+          "acceptable": true,
+          "issues": []
+        },
+        {
+          "label": "Z",
+          "acceptable": true,
+          "issues": []
+        }
+      ],
+      "preferred": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "seed": 20261126,
+  "input_sha256": {
+    "evals/cases.jsonl": "a4cb6dc52819282598c4cf1651fa933438801da7ab314bdded45374c3c3286a7",
+    "evals/rubric.json": "bea9714ba7b86540b4beca4cc740c5398de6b08a76755ab7077d54c27abcc874",
+    "evals/runs/2026-11-25-pilot/responses/baseline.jsonl": "4ee52d5fd9dc4092e359b174f8f5943dab7d7fad23a2a873b141ce0aff828b4f",
+    "evals/runs/2026-11-25-pilot/responses/concise.jsonl": "c536a70c321fc8ee21e605f559fac1bb0c898c94cfffa4e25fa43494ede9ff20",
+    "evals/runs/2026-11-25-pilot/responses/sasshite.jsonl": "e3c107db8374a0c7ad9bd7af85d730c7b5b3c17049370a9156304cabfcaa6119"
+  },
+  "cases": {
+    "C01": {
+      "X": {
+        "condition": "baseline",
+        "characters": 220
+      },
+      "Y": {
+        "condition": "sasshite",
+        "characters": 173
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 191
+      }
+    },
+    "C02": {
+      "X": {
+        "condition": "concise",
+        "characters": 125
+      },
+      "Y": {
+        "condition": "sasshite",
+        "characters": 134
+      },
+      "Z": {
+        "condition": "baseline",
+        "characters": 141
+      }
+    },
+    "C03": {
+      "X": {
+        "condition": "baseline",
+        "characters": 389
+      },
+      "Y": {
+        "condition": "sasshite",
+        "characters": 305
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 267
+      }
+    },
+    "C04": {
+      "X": {
+        "condition": "concise",
+        "characters": 211
+      },
+      "Y": {
+        "condition": "baseline",
+        "characters": 408
+      },
+      "Z": {
+        "condition": "sasshite",
+        "characters": 233
+      }
+    },
+    "C05": {
+      "X": {
+        "condition": "baseline",
+        "characters": 349
+      },
+      "Y": {
+        "condition": "concise",
+        "characters": 224
+      },
+      "Z": {
+        "condition": "sasshite",
+        "characters": 229
+      }
+    },
+    "C06": {
+      "X": {
+        "condition": "sasshite",
+        "characters": 132
+      },
+      "Y": {
+        "condition": "concise",
+        "characters": 135
+      },
+      "Z": {
+        "condition": "baseline",
+        "characters": 173
+      }
+    },
+    "C07": {
+      "X": {
+        "condition": "sasshite",
+        "characters": 2013
+      },
+      "Y": {
+        "condition": "baseline",
+        "characters": 2298
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 1553
+      }
+    },
+    "C08": {
+      "X": {
+        "condition": "concise",
+        "characters": 160
+      },
+      "Y": {
+        "condition": "baseline",
+        "characters": 178
+      },
+      "Z": {
+        "condition": "sasshite",
+        "characters": 167
+      }
+    },
+    "C09": {
+      "X": {
+        "condition": "baseline",
+        "characters": 100
+      },
+      "Y": {
+        "condition": "concise",
+        "characters": 100
+      },
+      "Z": {
+        "condition": "sasshite",
+        "characters": 100
+      }
+    },
+    "C10": {
+      "X": {
+        "condition": "baseline",
+        "characters": 2
+      },
+      "Y": {
+        "condition": "sasshite",
+        "characters": 2
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 2
+      }
+    },
+    "C11": {
+      "X": {
+        "condition": "sasshite",
+        "characters": 318
+      },
+      "Y": {
+        "condition": "baseline",
+        "characters": 272
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 184
+      }
+    },
+    "C12": {
+      "X": {
+        "condition": "sasshite",
+        "characters": 436
+      },
+      "Y": {
+        "condition": "baseline",
+        "characters": 441
+      },
+      "Z": {
+        "condition": "concise",
+        "characters": 282
+      }
+    }
+  }
+}

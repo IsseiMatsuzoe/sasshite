@@ -1,0 +1,79 @@
+{
+  "case_count": 12,
+  "conditions": {
+    "baseline": {
+      "acceptable": 12,
+      "unacceptable": 0,
+      "sole_best": 0,
+      "shared_best": 12
+    },
+    "concise": {
+      "acceptable": 12,
+      "unacceptable": 0,
+      "sole_best": 0,
+      "shared_best": 12
+    },
+    "sasshite": {
+      "acceptable": 12,
+      "unacceptable": 0,
+      "sole_best": 0,
+      "shared_best": 12
+    }
+  },
+  "pairwise": [
+    {
+      "conditions": [
+        "baseline",
+        "concise"
+      ],
+      "wins": {
+        "baseline": 0,
+        "concise": 0
+      },
+      "ties": 12,
+      "unobserved": 0
+    },
+    {
+      "conditions": [
+        "baseline",
+        "sasshite"
+      ],
+      "wins": {
+        "baseline": 0,
+        "sasshite": 0
+      },
+      "ties": 12,
+      "unobserved": 0
+    },
+    {
+      "conditions": [
+        "concise",
+        "sasshite"
+      ],
+      "wins": {
+        "concise": 0,
+        "sasshite": 0
+      },
+      "ties": 12,
+      "unobserved": 0
+    }
+  ],
+  "character_diagnostics": {
+    "baseline": {
+      "mean": 414.25,
+      "min": 2,
+      "max": 2298
+    },
+    "concise": {
+      "mean": 286.17,
+      "min": 2,
+      "max": 1553
+    },
+    "sasshite": {
+      "mean": 353.5,
+      "min": 2,
+      "max": 2013
+    }
+  },
+  "interpretation": "Descriptive counts only; no statistical significance is inferred. A pairwise win means preferred over an unpreferred candidate. A tie means jointly preferred. Two unpreferred candidates are unobserved, not tied. Character counts are diagnostics only and do not affect acceptability or preference."
+}

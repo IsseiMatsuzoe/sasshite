@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "baseline": {
+      "C09_valid_json_and_exact_data": true,
+      "C10_only_requested_word": true
+    },
+    "concise": {
+      "C09_valid_json_and_exact_data": true,
+      "C10_only_requested_word": true
+    },
+    "sasshite": {
+      "C09_valid_json_and_exact_data": true,
+      "C10_only_requested_word": true
+    }
+  },
+  "all_passed": true,
+  "scope": "Explicit C09/C10 output contracts only; other forms are judged in context."
+}

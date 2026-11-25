@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "seed": 20261125,
+  "case_ids": [
+    "C07",
+    "C11",
+    "C03",
+    "C02",
+    "C10",
+    "C05",
+    "C12",
+    "C04",
+    "C09",
+    "C08",
+    "C06",
+    "C01"
+  ],
+  "input_sha256": {
+    "evals/cases.jsonl": "a4cb6dc52819282598c4cf1651fa933438801da7ab314bdded45374c3c3286a7",
+    "evals/runs/2026-11-25-pilot/conditions/baseline.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evals/runs/2026-11-25-pilot/conditions/concise.txt": "64170ea90f27ed9e3dffbca80a78fea92bdc7a7500d4d24bd27cfd999881d269",
+    "evals/runs/2026-11-25-pilot/conditions/sasshite.txt": "d38722f54a99bb3b4b6f9d663f97fd9f6a66598b7a095a3eee97fe4dcd05a65c"
+  },
+  "packets": {
+    "baseline": "baseline.md",
+    "concise": "concise.md",
+    "sasshite": "sasshite.md"
+  }
+}

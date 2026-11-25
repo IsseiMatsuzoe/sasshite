@@ -1,0 +1,4 @@
+interface:
+  display_name: "sasshite"
+  short_description: "Choose what matters in this conversation"
+  default_prompt: "Use $sasshite to shape this reply around what matters to me in the current conversation."
